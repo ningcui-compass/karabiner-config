@@ -1,0 +1,11 @@
+alias.lg log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.co checkout
+alias.st status
+alias.cm commit -m
+alias.df diff
+alias.lp log -p
+alias.pr pull --rebase
+alias.ss status
+alias.ra rebase -i --autosquash
+alias.al add ../../build.sh ../client/* constants/* *.go
+alias.shove push --force-with-lease
