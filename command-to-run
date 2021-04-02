@@ -1,0 +1,2 @@
+//this is to enable repeat
+defaults write -g ApplePressAndHoldEnabled -bool false
