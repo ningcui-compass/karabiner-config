@@ -9,3 +9,5 @@ alias.ss status
 alias.ra rebase -i --autosquash
 alias.al add ../../build.sh ../client/* constants/* *.go
 alias.shove push --force-with-lease
+
+git config --global push.default current
